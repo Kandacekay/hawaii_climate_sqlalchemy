@@ -14,7 +14,7 @@ app = Flask(__name__)
 #################################################
 # Database Setup
 #################################################
-engine = create_engine(("sqlite:///C:\\Users\\kayvb\\OneDrive\\Desktop\\github Repos\\sqlalchemy-challenge\\Resources\\hawaii.sqlite"))
+engine = create_engine(("sqlite:///Resources\\hawaii.sqlite"))
 
 # reflect an existing database into a new model
 Base = automap_base()
