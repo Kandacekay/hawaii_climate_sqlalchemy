@@ -1,4 +1,4 @@
-[summary_statistics.csv](https://github.com/Kandacekay/sqlalchemy-challenge/files/13745445/summary_statistics.csv)# Hawaii Climate Analysis API
+# Hawaii Climate Analysis API
 
 ## Overview
 This project involves the analysis of climate data from Hawaii, focusing on precipitation, station activity, and temperature observations. The data is sourced from a SQLite database, and the analysis includes exploratory data analysis, visualizations, and the creation of a Flask API to provide climate information through various endpoints.
@@ -15,19 +15,12 @@ This project involves the analysis of climate data from Hawaii, focusing on prec
    - Found the most recent date in the dataset.
 2. <b> Precipitation Analysis </b>
    - Retrieved the last 12 months of precipitation data:
-![precipitation_graph](https://github.com/Kandacekay/sqlalchemy-challenge/assets/130207643/3e1eb534-1bce-4a9e-9d82-969d690563e8)
+![precipitation_graph](https://github.com/Kandacekay/sqlalchemy-challenge/assets/130207643/092104f6-6d34-4030-a917-a266fc7ffaca)
+
    - Plotted the results using Matplotlib.
    - Calculated and printed summary statistics for precipitation data:
-   - [Uploading summaryPrecipitation
-365.0
-0.16998727984344422
-0.29572180763925376
-0.0
-0.008571428571428572
-0.06999999999999999
-0.19166666666666665
-2.3800000000000003
-_statistics.csv…]()
+![summary_statistics](https://github.com/Kandacekay/sqlalchemy-challenge/assets/130207643/bf29062d-0748-42d6-843a-cce107a227bd)
+
 
 
 ## Exploratory Station Analysis
@@ -38,7 +31,7 @@ _statistics.csv…]()
 3. <b> Temperature Analysis for Most Active Station </b>
    - Calculated the lowest, highest, and average temperature for the most active station.
    - Plotted a histogram for the last 12 months of temperature observations for this station.
-![temperature_histogram](https://github.com/Kandacekay/sqlalchemy-challenge/assets/130207643/345d75ce-f54a-420f-ad70-68a5aa632671)
+![temperature_histogram](https://github.com/Kandacekay/sqlalchemy-challenge/assets/130207643/cd495af0-c5d7-422c-8982-6f78f5f8e1dc)
 
 
 ## Flask API Endpoints
